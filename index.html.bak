@@ -3,22 +3,18 @@
  <head>
   <meta charset="UTF-8">
   <title>HTML5</title>
+  <script src="jquery-1.11.1.js"></script>
   <style type="text/css">
 	
   </style>
  </head>
  <body>
-  
+   
  </body>
- <script src="jquery-1.11.1.js"></script>
  <script>
-	$.ajax({
-		url:"http://oljtqy7i8.bkt.clouddn.com/jsp",
-		dateType:"text",
-		type:"get",
-		success:function(data){
-			alert(data);
-		}
-	});
+	var script=document.createElement("script");
+	script.src="http://oljtqy7i8.bkt.clouddn.com/jsp/?callback=haha";
+	document.body.append(script);
  </script>
+
 </html>
