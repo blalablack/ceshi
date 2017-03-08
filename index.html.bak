@@ -13,7 +13,7 @@
  <script src="jquery-1.11.1.js"></script>
  <script>
 	$.ajax({
-		url:"oljtqy7i8.bkt.clouddn.com/jsp",
+		url:"http://oljtqy7i8.bkt.clouddn.com/jsp",
 		dateType:"text",
 		type:"get",
 		success:function(data){

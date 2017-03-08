@@ -14,8 +14,9 @@
  <script>
 	$.ajax({
 		url:"http://oljtqy7i8.bkt.clouddn.com/jsp",
-		dateType:"text",
+		dataType: "jsonp",
 		type:"get",
+		jsonp: "callback",
 		success:function(data){
 			alert(data);
 		}
